@@ -9,7 +9,7 @@ fi
 BASE=$(pwd)
 
 
-export PATH=${PATH}:$BASE/prebuilts/misc/linux-x86/ccache:~/bin
+export PATH=${PATH}:$BASE/prebuilts/misc/linux-x86/ccache:/var/lib/jenkins/bin
 
 export USE_CCACHE=1
 export CCACHE_NLEVELS=4
