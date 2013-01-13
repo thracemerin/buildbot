@@ -8,6 +8,8 @@ fi
 
 BASE=$(pwd)
 
+rm -rf $WORKSPACE/archive
+mkdir -p $WORKSPACE/archive
 
 export PATH=${PATH}:$BASE/prebuilts/misc/linux-x86/ccache:/var/lib/jenkins/bin
 
@@ -41,3 +43,7 @@ fi
 lunch cm_${LUNCH}-userdebug
 
 time mka bacon
+
+
+cp $OUT/cm-*.zip $WORKSPACE/archive/
+cp $OUT/boot.img $WORKSPACE/archive/
