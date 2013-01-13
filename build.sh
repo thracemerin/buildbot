@@ -46,4 +46,5 @@ time mka bacon
 
 
 cp $OUT/cm-*.zip $WORKSPACE/archive/
+cp $OUT/cm-*.zip.md5sum $WORKSPACE/archive/
 cp $OUT/boot.img $WORKSPACE/archive/
