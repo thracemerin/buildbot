@@ -1,4 +1,4 @@
-#!/bin/sh -xe
+#!/bin/bash
 
 if [ -z "$LUNCH" ]
 then
