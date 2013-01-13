@@ -15,7 +15,7 @@ export PATH=${PATH}:$BASE/prebuilts/misc/linux-x86/ccache:/var/lib/jenkins/bin
 
 export USE_CCACHE=1
 export CCACHE_NLEVELS=4
-export CM_FAST_BUILD=1
+export BUILD_WITH_COLORS=0
 
 ccache -M 100G
 
