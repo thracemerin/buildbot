@@ -11,6 +11,11 @@ BASE=$(pwd)
 rm -rf $WORKSPACE/archive
 mkdir -p $WORKSPACE/archive
 
+cd $BASE/.repo
+rm local_manifest.xml
+curl -O https://raw.github.com/thracemerin/buildbot/master/local_manifest.xml
+cd $BASE
+
 export PATH=${PATH}:$BASE/prebuilts/misc/linux-x86/ccache:/var/lib/jenkins/bin
 
 export USE_CCACHE=1
