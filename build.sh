@@ -35,8 +35,7 @@ then
 fi
 TIME_SINCE_LAST_CLEAN=$(expr $(date +%s) - $LAST_CLEAN)
 TIME_SINCE_LAST_CLEAN=$(expr $TIME_SINCE_LAST_CLEAN / 60 / 60)
-if [ $TIME_SINCE_LAST_CLEAN -ge "24" ] || [ $CLEAN == "true" ]; 
-then
+if [ $TIME_SINCE_LAST_CLEAN -ge "24" ] || [ $CLEAN = "true" ] ; then
   echo "Cleaning!" 
   touch .clean
   make clobber
