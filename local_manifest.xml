@@ -19,5 +19,5 @@
   <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_device_lge_mako" path="device/lge/mako" remote="github" revision="cm-10.1" />
-  <project name="thracemerin/lge-kernel-mako" path="kernel/lge/mako" remote="github" revision="jb-exp-hsicfix" />
+  <project name="thracemerin/Mako" path="kernel/lge/mako" remote="github" revision="android-msm-mako-3.4-jb-mr1.1" />
 </manifest>
